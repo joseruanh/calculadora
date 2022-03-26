@@ -1,0 +1,84 @@
+* {margin: 0; padding: 0; font-family: gotham}
+
+@font-face
+{
+    font-family: gotham;
+    src: url('/fonts/gotham.ttf');
+}
+
+body
+{
+    background-color: rgb(187, 114, 255);
+}
+
+div.calculadora
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    background-color: rgb(105, 62, 119);
+    width: 200px;
+    height: 320px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.638);
+}
+
+div.titulo
+{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    width: 95%;
+    margin: auto;
+}
+
+table
+{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+td
+{
+    width: 20%;
+    padding: 2px;
+}
+button
+{
+    background-color: rgb(227, 143, 255);
+    font-size: 20px;
+    color: rgb(105, 62, 119);
+    font-weight: bolder;
+    border: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    background-color: rgba(227, 143, 255, 0.707);
+}
+p#resultado
+{
+    
+    overflow: hidden;
+    font-size: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.508);
+    background-color: white;
+    width: 94%;
+    height: 35px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+}
